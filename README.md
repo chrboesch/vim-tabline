@@ -7,5 +7,5 @@ Clear tab line for vim/neovim
 Copy tabline.vim into your configuration directory (e.g. ~/.vim or ~/.config/nvim) and add the following line to your config file: 
 
 ```
-exe "source tabline.vim"
+source tabline.vim
 ```
