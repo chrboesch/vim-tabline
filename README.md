@@ -9,3 +9,8 @@ Copy tabline.vim into your configuration directory (e.g. ~/.vim or ~/.config/nvi
 ```
 source tabline.vim
 ```
+License
+-------
+
+Code is available according to the MIT License
+(see [LICENSE](https://github.com/chrboesch/vim-tabline/raw/master/LICENSE)).
