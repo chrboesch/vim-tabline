@@ -5,10 +5,13 @@
 " Author:   Chris Boesch <github.com/chrboesch>
 " License:  MIT License (see end of this file)
 " Created:  2020 Feb 29
-" Modified: 2020 Mar 21
+" Modified: 2020 Mar 24
 
 function! Tabline()
-  let s = ' ┊'
+  " seperator
+  let sep = '┊'
+
+  let s = ' ' . sep
   for i in range(tabpagenr('$'))
     let tab = i + 1
     let winnr = tabpagewinnr(tab)
@@ -27,7 +30,7 @@ function! Tabline()
     endif
 
     let s .= '%#TabLine#'
-    let s .= '┊'
+    let s .= sep 
 
   endfor
 
