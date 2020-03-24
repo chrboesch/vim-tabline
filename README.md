@@ -13,4 +13,4 @@ License
 -------
 
 Code is available according to the MIT License
-(see [LICENSE](https://github.com/chrboesch/vim-tabline/raw/master/LICENSE)).
+(see [LICENSE](https://github.com/chrboesch/vim-tabline/blob/master/LICENSE)).
