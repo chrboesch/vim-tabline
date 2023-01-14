@@ -1,5 +1,5 @@
 # vim-tabline
-Clear tab line for vim/neovim
+Simple and clear tab line for vim/neovim
 
 ![Tabline Screenshot](https://raw.github.com/chrboesch/vim-tabline/master/screenshot/tabline.png)
 
